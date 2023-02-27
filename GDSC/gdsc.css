@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  
+  header {
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #about {
+    padding: 80px 0;
+    background-color: #f2f2f2;
+  }
+  
+  #about h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+  }
+  
+  #announcements {
+    padding: 80px 0;
+  }
+  
+  #announcements h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #announcements ul {
+    list-style: none;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+  }
+  
+  #announcements li a {
+    color: #4285f4;
+    text-decoration: none;
+  }
+  
+  /* Team section styles */
+  #team {
+    padding: 80px 0;
+    background-color: #f2f2f2;
+  }
+  
+  #team h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #team p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  .team-members li {
+    text-align: center;
+    margin-right: 40px;
+  }
+  
+  .team-members li:last-child {
+    margin-right: 0;
+  }
+  
+  .team-members img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .team-members h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .team-members p {
+    font-size: 1.2em;
+  }
+  
+
+  #members {
+    padding: 80px 0;
+  }
+  
+  #members h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #members p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+  }
+  .gdsc
+  {
+    position: absolute;
+    height:auto;
+    left:5px;
+    width:100px;
+
+  }
